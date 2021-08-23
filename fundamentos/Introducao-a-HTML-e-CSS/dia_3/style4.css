@@ -1,0 +1,36 @@
+ol li{
+    background-color: yellow;
+}
+
+ol > li:nth-child(2n) {
+    color: green;
+}
+
+li:nth-child(2n+1) {
+    text-transform: uppercase;
+}
+
+.header em {
+    font-size: 40px;
+    border-bottom: 1px black solid;
+}
+
+.header {
+    color: red;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+.linguagens > li:nth-of-type(-n+3){
+    color: blue;
+}
+
+.linguagens [class*="java"]{
+    background-color: pink;
+}
