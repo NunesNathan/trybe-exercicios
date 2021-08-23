@@ -1,4 +1,49 @@
+div{
+    margin-right: 85%;
+}
+
+/* https://stackoverflow.com/questions/31974431/target-a-div-without-a-class-or-id sobre ">" */
+div:nth-child(2n+1) > h3{
+    font-style: italic;
+}
+
+div:nth-child(1) {
+    color: blue;
+}
+div:nth-child(1) h3 {
+    background-color: yellow;
+}
+
+div:nth-child(2) {
+    color: purple;
+}
+div:nth-child(2) h3 {
+    background-color: orange;
+}
+
+div:nth-child(3) {
+    color: red;
+    margin: 1.7em;
+    margin-right: 76%;
+}
+div:nth-child(3) h3 {
+    background-color: lightpink;
+}
+
 div:hover {
-    background-color: chocolate;
-    : ;
+    margin-right: 84%;
+}
+
+div:nth-child(4) {
+    color: darkslategrey;
+}
+div:nth-child(4) h3 {
+    background-color: darkred;
+}
+
+div:nth-child(5) {
+    color: lightsalmon;
+}
+div:nth-child(5) h3 {
+    background-color: lightskyblue;
 }
