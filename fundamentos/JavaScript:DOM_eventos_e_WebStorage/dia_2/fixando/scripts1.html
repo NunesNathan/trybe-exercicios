@@ -1,0 +1,22 @@
+<main id="paiDoPai">
+  <section id="pai">
+    <section id="primeiroFilho"></section>
+    <section id="elementoOndeVoceEsta">
+      <section id="primeiroFilhoDoFilho"></section>
+      <section id="segundoEUltimoFilhoDoFilho"></section>
+    </section>
+    Atenção!
+    <section id="terceiroFilho"></section>
+    <section id="quartoEUltimoFilho"></section>
+  </section>
+  <script>
+    document.querySelector("#elementoOndeVoceEsta").parentNode.style.color = "blue"
+    document.querySelector("#elementoOndeVoceEsta").firstElementChild.innerText = "casa suja chão sujo"
+    document.querySelector("#pai").firstElementChild.style.backgroundColor = "black"
+    document.querySelector("#elementoOndeVoceEsta").parentNode.firstElementChild.innerText = "Prato de trigo"
+    let elementos = document.getElementsByTagName("section")
+    let irmao = document.createElement("section")
+    let lalao = appendChild(irmao)
+    elementos.splice(2, 0, lalao)
+  </script>
+</main>
