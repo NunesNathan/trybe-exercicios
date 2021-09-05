@@ -1,0 +1,83 @@
+body {
+  background-color: #1F1F1F;
+  color: #777777;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+  border: 1px solid #777777;
+}
+
+nav li{
+  display: inline-block;
+  font-size: 1.1em;
+  -webkit-text-size-adjust: 100%;
+  width: 17%;
+  border: 2px solid #777777;
+  text-align: center;
+  background-color: #404040;
+}
+
+nav a {
+  text-decoration: none;
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+hr {
+  border-color: #777777;
+}
+
+a {
+  color: rgb(119, 119, 119);
+}
+
+.facts section {
+  margin-top: 2%;
+  border-top: #777777 solid 0.5px;
+}
+
+.toRight {
+  padding-left: 2%;
+}
+
+table {
+  border: dotted;
+  margin-left: 75%;
+}
+
+article ul {
+  display: inline-block;
+  float: left;
+}
+
+.facts {
+  padding-right: 22.5%;
+  margin-left: 22.5%;
+  
+}
+
+img {
+  width: 715px;
+}
+
+footer {
+  position: relative;
+}
+
+footer ul {
+  float: right;
+  margin-right: 10%;
+  margin-top: 0%;
+  list-style: none;
+  width: auto;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.footerText {
+  padding-top: 0.5%;
+  margin-left: 7%;
+  text-align: center;
+  font-style: italic;
+}
