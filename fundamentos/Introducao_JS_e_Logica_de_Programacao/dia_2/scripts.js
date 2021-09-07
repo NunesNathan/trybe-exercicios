@@ -74,10 +74,9 @@ for (let index = 1; oneTo25.length < 25; index += 1) {
 
 // Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2
 
-let forTwo25 = []
-for (let index = 0; index < oneTo25.length; index += 1) {
-  let div25 = oneTo25[index];
-  div25 = div25 / 2
-  forTwo25.push(div25)
-}
-console.log(forTwo25);
+
+let oneTwo25 = []
+for (let ind in oneTo25) {
+  let divisor = (oneTo25[ind] / 2)
+  oneTwo25.push(divisor);
+} console.log(oneTwo25);
