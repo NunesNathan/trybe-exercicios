@@ -1,0 +1,13 @@
+const paragraph = document.getElementById('paragraph');
+paragraph.style.color = 'red';
+document.getElementById('page-title').innerText = 'Harry Potter'
+document.getElementById('second-paragraph').innerText = 'O paragrafo secundario!'
+document.getElementById('subtitle').style.backgroundColor = '#777777'
+let p = document.getElementsByTagName('p')
+p[0].classList += 'paragraphs'
+p[1].classList += 'paragraphs'
+let classificados = document.getElementsByClassName('paragraphs')
+p[0].style.margin = '3px'
+document.getElementsByTagName('h4').style.backgroundColor = '#777777'
+document.getElementsByClassName('paragraphs')[0].style.backgroundColor = 'yellow'
+document.getElementsByTagName('p')[1].style.fontFamily = 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif'

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 6.1</title>
+</head>
+<body>
+  <main>
+    <form action="_blank" method="get">
+    <fieldset>
+      <input type="text" required name="name" placeholder="Nome" maxlength="40">
+      <input type="text" required name="email" placeholder="Email" maxlength="50">
+      <input type="text" required name="cpf" placeholder="CPF" maxlength="11">
+      <input type="text" required name="aderess" placeholder="Endereço" maxlength="200">
+      <input type="text" required name="city" placeholder="Cidade" maxlength="28">
+      <select name="state" required id="state"></select>
+      <label for="location_type_1">
+      <input type="radio" required name="location_type" checked id="location_type_1">Casa
+      </label>
+      <label for="location_type_2">
+      <input type="radio" required name="location_type" id="location_type_2">Apartamento
+      </label>
+    </fieldset>
+
+      <fieldset>
+      <textarea name="resumoCurriculum" id="resumoCurriculum" cols="60" rows="10" maxlength="1000"></textarea>
+      <input type="text" required name="cargo" placeholder="cargo" maxlength="40">
+      <input type="text" required name="cargo_description" placeholder="descrição de cargo" maxlength="500">
+      <input class="date" type="text" required name="date" placeholder="data de início" maxlength="200">
+    </fieldset>
+    <button type="submit">Enviar!</button>
+    <button type="reset">Limpar Formulário!</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
