@@ -1,6 +1,22 @@
+@media screen and (max-width: 500px) {
+  body{
+    font-size:medium;
+    background-color: cadetblue;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 501px) {
+  body{
+    font-size: large;
+    background-color: burlywood;
+  }
+}
 html {
   box-sizing: border-box;
+  font-size:larger;
+    background-color: grey;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
