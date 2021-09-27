@@ -46,5 +46,11 @@ figure {
 }
 
 @media screen and (min-width:916px) {
-  
+  body{
+    background-color: purple;
+    font-size: large;
+    margin: 25px;
+    max-width: 750px;
+    margin: auto;
+  }
 }
