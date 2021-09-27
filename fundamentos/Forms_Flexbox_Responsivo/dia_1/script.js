@@ -46,7 +46,6 @@ function mkOptions() {
 const date = document.querySelector('.date');
 date.addEventListener('change', () => {
   const dateSplit = date.value.split(/(\d)/);
-  console.log(dateSplit);
   if (dateSplit[1] + dateSplit[3] <= 31 && dateSplit[5] + dateSplit[7] <= 12 && dateSplit[4] == '/' && dateSplit[8] == '/') {
   } else {
     alert('formato de data de início errado!');
@@ -54,4 +53,6 @@ date.addEventListener('change', () => {
 });
 
 const submit = document.querySelector('button')
-submit.addEventListener
+submit.addEventListener('click', (e) => {
+  e.preventDefault()
+});
