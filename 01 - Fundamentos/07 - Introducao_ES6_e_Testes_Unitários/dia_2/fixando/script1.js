@@ -9,18 +9,12 @@ const customer = {
 let abc = 'lastname'
 
 customer[abc] = 'Zerinho'
-// console.log(customer);
-
-// const cliente = (obj, key, value) => {
-//   let kei = `${key}`
-//   let object = obj
-//   return object[kei] = `${value}`
-// }
+console.log(customer);
 
 function client(obj, key, value) {
   return obj[key] = value
 }
-
-client(customer, 'time do coração', 'capivaras')
+let time = 'time do coração'
+client(customer, time, 'Capivaras de Nova Guiné')
 
 console.log(customer);
