@@ -18,4 +18,4 @@ const sorted = arr => {
   return `Os numeros ${sortedNums} se encontram ordenados de forma crescente!`
 }
 
-console.log(sorted(oddsAndEvens)); // será necessário alterar essa linha 😉
+console.log(sorted(oddsAndEvens));
