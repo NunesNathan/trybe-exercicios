@@ -2,7 +2,7 @@ const {
   greetingMessage,
   loginErrorMessage,
   verifyCredentials,
-} = require("./loginValidation.js");
+} = require("../../01 - Fundamentos/07 - Introducao_ES6_e_Testes_Unitários/dia_3/fixando/my_new_project/loginValidation.js");
 
 describe("a função verifyCredentials()", () => {
 
