@@ -1,10 +1,4 @@
-const fetch = require('node-fetch');
-
-const getRepos = (url) => (
-  fetch(url)
-    .then((response) => response.json())
-    .then((data) => data.map((eachRepo) => eachRepo.name))
-);
+const getRepos = require("../../01 - Fundamentos/09 - Testes_Assíncronos/dia_3/getRepos.js");
 
 test('Se contém projetos', async () => {
   const result = await getRepos('https://api.github.com/orgs/tryber/repos')
