@@ -1,0 +1,39 @@
+body {
+  background-color: #777;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-evenly;
+}
+
+li {
+  display: flex;
+  height: 300px;
+  width: 26%;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to left, #777, #555);
+  margin-bottom: 4vh;
+}
+
+.poke-infos {
+  margin-left: 13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #333;
+  background: linear-gradient(to left, rgba(85, 85, 85, 0.09), rgb(119, 119, 119));
+  width: 130px;
+}
+
+li img {
+  max-width: 14vw;
+  max-height: 32vh;
+}
